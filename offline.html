@@ -27,6 +27,11 @@
             <div id=reset>PLAY AGAIN</div>
          </div>
       </div>
+      <script>
+			if ("serviceWorker" in navigator) {
+				navigator.serviceWorker.register("sw.js");
+			}
+		</script>
       <script src=sound.js></script><script src=couch.js></script>
    </body>
 </html>
